@@ -20,15 +20,23 @@ body {
     width: 100%;
     background-color: var(--blue);
     display: flex;
-    height: 50px;
+    height: 75px;
     align-items: center;
 }
 
-.nav__item {
-    margin-left: 10px;
+.nav__item, .nav__item--highlight {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+    height: 100%;
 }
 
-.nav__item > a {
+.nav__item--highlight, .nav__item:hover {
+    background-color: var(--light-blue);
+}
+
+.nav__item > a, .nav__item--highlight > a{
     font-weight: bold;
     font-size: 20px;
     color: white;
