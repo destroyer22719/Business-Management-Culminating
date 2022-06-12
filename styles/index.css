@@ -1,0 +1,13 @@
+.main {
+    width: 100%;
+    display: flex;
+}
+
+.main__img {
+    margin-right: 20px;
+    width: 100%;
+}
+
+.main__logo {
+    width: 250px;
+}
