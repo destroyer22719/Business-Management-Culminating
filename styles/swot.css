@@ -12,3 +12,7 @@
 .main__text {
     width: 75%;
 }
+
+ul ul > li {
+    margin-bottom: 10px;
+}
